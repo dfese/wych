@@ -1,0 +1,45 @@
+
+*{font-family: "나눔스퀘어", Arial, Helvetica, sans-serif;}
+header h1{display: inline;}
+header img {height: 60px;}
+ul {list-style-type: none;}
+a {text-decoration: none;}
+nav ul{
+    text-align: center; border-top: 2px solid #9400d3;
+    border-bottom: 2px solid #9400d3; padding: 15px 10px;
+}
+nav ul li {
+    display: inline;
+    padding: 10px 60px;
+    letter-spacing: 5px;
+}
+nav ul li:hover {
+    background-color: #9400d3;
+}
+ul li a:hover {
+    color: white;
+}
+body{
+    margin: 0px;
+    font-size: 14px;
+}
+header, footer{
+    height: 100px;
+    font-size: 1.4em;
+}
+article, aside, nav{
+    height: calc(30vh - 100px);
+     border: 1px solid powderblue;
+ }
+section{
+    display: flex;
+}
+    article{
+        flex: 1;   
+    }
+    aside{
+        flex: 1;
+    }
+    nav{
+        flex: 1;
+    }
